@@ -1,7 +1,8 @@
 
 // export const API_URL = Platform.OS == 'android' ? "http://10.255.171.128:3000" : "http://localhost:3000";
 // export const API_URL = Platform.OS == 'android' ? "http://10.0.2.2:3000" : "http://localhost:3000";
-export const API_URL = "https://2f1301bc0404.ngrok-free.app";
+
+export const API_URL = "https://skizzle-be-2.onrender.com";
 
 
 
