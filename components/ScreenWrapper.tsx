@@ -2,12 +2,12 @@ import { colors } from "@/constants/theme";
 import { ScreenWrapperProps } from "@/types";
 import React from "react";
 import {
-    Dimensions,
-    ImageBackground,
-    Platform,
-    StatusBar,
-    StyleSheet,
-    View,
+  Dimensions,
+  ImageBackground,
+  Platform,
+  StatusBar,
+  StyleSheet,
+  View,
 } from "react-native";
 
 const { height } = Dimensions.get("window");
@@ -34,7 +34,7 @@ const ScreenWrapper: React.FC<ScreenWrapperProps> = ({
         backgroundColor: isModal ? colors.white : colors.neutral900,
       }}
       imageStyle={{ opacity: showPattern ? bgOpacity : 0 }}
-      source={require("../assets/images/bgPattern.png")}
+      source={require("../assets/images/bg_pattern.png")}
     >
       <View style={[{ paddingTop, paddingBottom, flex: 1 }, style]}>
         <StatusBar barStyle={"light-content"} backgroundColor={"transparent"} />
